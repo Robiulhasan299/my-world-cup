@@ -7,3 +7,360 @@
     box-sizing: border-box;
     font-family: 'Source Sans Pro', sans-serif;
 }
+
+/* =================== Header section start here  ================= */
+.header{
+    width: 100%;
+    height: 100vh;
+    padding: 6rem 8%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header{
+    background-color: rgba(0, 0, 0, 0.867);
+    border-radius: 25px;
+    display: flex;
+}
+header .main-content{
+    width: 50%;
+}
+header .main-content h1{
+    padding: 60px;
+    color:  #fff;
+    font-size: 60px;
+    padding-bottom: 10px;
+}
+header .main-content p{
+    padding: 0px 60px;
+    padding-bottom: 30px;
+    color: rgba(255, 255, 255, 0.692);
+    font-size: 15px;
+    font-weight: 200;
+    line-height: 20px;
+}
+header .main-content a{
+    background-color:crimson;
+    padding: 15px 35px;
+    border-radius: 5px;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #fff;
+    transition: all .7s  ease-in-out;
+    font-size: 18px;
+}
+header .main-content a:hover {
+   color:  #000;
+    background-color: aqua;
+}
+header .main-content  .button i{
+    margin-left: 20px;
+    text-align: center;
+    color: #fff;
+}
+header .main-content  .button  {
+     margin-left: 60px;
+}
+ 
+.image {
+    width: 50%;
+}
+.image img{
+    width: 92%;
+}
+
+
+/* card section start here  */
+.card{
+    padding: 6rem 8%;
+    display: flex;
+   
+}
+.card .small-area{
+    margin-right: 30px;
+    width: 20%;
+    height:250px;
+    background-color: black;
+    border-radius: 10px;
+}
+.card .small-area a{
+    text-transform: capitalize;
+     display: block;
+     font-size: 18px;
+     color: hsla(0, 0%, 0%, 0.877);
+     padding: 10px 15px;
+     border-radius: 10px;
+     text-align: center;
+     background: #fff;
+     margin: 25px;
+    text-decoration: none;
+}
+.card .small-area .card-blog {
+    background-color:crimson;
+    color: #fff;
+}
+.card .big-area{
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+.card .big-area img{
+    width: 280px;
+}
+.big-area .main-card{
+    border: 1px solid linen;
+}
+.big-area .main-card .blog-content{
+    padding: 19px;
+}
+  .blog-content .blog-btn{
+    
+    display: inline-block;
+ 
+}
+  .blog-content .blog-btn a{
+    border-radius: 5px;
+    color: #000;
+    padding: 5px 15px ;
+    text-decoration: none;
+    border: 1px solid  rgba(0, 0, 0, 0.842);
+}
+.big-area .main-card .blog-content  h6{
+    font-size: 18px;
+    padding: 14px 0px;
+}
+.big-area .main-card .blog-content a{
+    color: rgba(0, 0, 0, 0.616);
+    text-decoration: none;
+    margin-right: 30px;
+    font-weight: 100;
+    
+}
+.big-area .main-card .blog-content a span{
+    margin-left: 8px;
+}
+.view-all-btn{
+    margin-top: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+.view-all-btn a{
+    display: none;
+    background-color: crimson;
+    padding: 20px 35px;
+    border-radius: 5px;
+    font-size: 25px;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+  
+}
+/* footer section start here  */
+.footer{
+   background-color: rgba(0, 0, 0, 0.947);
+    width: 100%;
+    height: 400px;
+    text-align: center;
+}
+ 
+.footer-content p{
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    padding: 70px;
+     border-bottom: 1px solid lightslategray ;
+}
+ 
+.footer-nav nav {
+    margin-top: 40px;
+}
+.footer-nav nav a{
+    color: rgba(211, 211, 211, 0.678);
+    text-decoration: none;
+    text-transform: capitalize;
+    margin-right: 27px;
+    font-size: 15px;
+}
+
+.social-icons{
+    margin-top: 50px;
+    text-align: center;
+  
+}
+.social-icons a{
+    background-color: crimson;
+   margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+
+/* mach  html file 2 style here  ================*/
+.big-area1{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+}
+.big-area-flex{
+    border: 1px solid lightgray;
+    padding: 15px;
+    border-radius: 10px;
+    align-items: center;
+}
+.big-area-flex .images{
+    align-items: center;
+    display: flex;
+   
+}
+.big-area-flex .images img{
+    margin: 10px;
+}
+.big-area-flex .images h4{
+    margin-top: 24px;
+}
+.big-area-flex .content{
+    text-align: center;
+}
+
+.big-area-flex .content h4{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.big-area-flex .content p{
+    color: lightslategray;
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+/* media query tablet mode */
+ @media (max-width:992px) {
+    .header{
+        width: 100%;
+        height: 140vh;
+        padding: 4rem 5%;
+      
+    }
+    
+    header .main-content h1{
+        font-size: 45px;
+    }
+    .card{
+        padding-top: 10px;
+        display:  block;
+    }
+    .card .small-area{  
+        height: 150px;
+        width: 100%;
+        background-color: #fff;
+    }
+ 
+    .card .small-area a{
+        display: inline-block;
+        border: 1px solid lightgray;
+        font-size: 25px;
+    }
+    .card .big-area{
+        width: 100%;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .card .big-area img{
+        width:  100%;
+    }
+     .view-all-btn a{
+        display: inline-block;
+     }
+     .big-area1{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 15px;
+    }
+ }
+/* mach file media query */
+
+
+ /*  responsive for mobile =============== */
+ @media (max-width:768px){
+    header{
+        padding-top: 0px;
+        background-color:  rgba(0, 0, 0, 0.836);
+        display:  block;
+        padding-bottom: 10px;
+        margin-bottom: 0px;
+        
+    }
+    header .main-content{
+        width: 100%;
+         
+    }
+    header .main-content h1{
+        font-size: 25px;
+    }
+    .image {
+        margin-top: 30px;
+        margin-bottom: 2px;
+        text-align: center;
+        width: 100%;
+    }
+
+    /* card================ */
+    .card{
+        margin-top: 0px;
+        padding-top: 0px;
+    }
+    .card .big-area{
+        grid-template-columns: repeat(1,1fr);
+        gap: 15px;
+    }
+    .card .small-area a{
+        display:block;
+        border: 1px solid lightgray;
+        font-size: 25px;
+    }
+    .card .small-area{  
+        height: 300px;
+        width: 100%;
+        background-color: #fff;
+    }
+    .footer{
+ 
+         height: 100vh;
+        
+     }
+     .footer-nav nav a{
+         display: block;
+         margin-top: 30px;
+    }
+
+    .card .small-area{
+       background-color: #fff;
+    }
+    .card .small-area a{
+      border: 1px solid  lightslategrey;
+    }
+    .card .big-area img{
+        margin-top: 10px;
+        width: 100%;
+    }
+
+
+
+    /* mach file media query  */
+    .big-area1{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 10px;
+    }
+ } 
